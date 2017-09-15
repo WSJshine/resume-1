@@ -3,13 +3,26 @@
     outline: 1px solid red;
 }
 
+body {
+    padding-top: 70px;
+}
+
 /* Topbar */
 
 #topbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 40px;  
     background-color: black;
+    text-align: center;
 }
+
+#topbar ul {
+    display: inline-block;
+}
+
+#topbar ul li {
+    display: inline-block;
+}
+
+#topbar a {
+    color: #fff;
+}
+
